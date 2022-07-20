@@ -99,7 +99,7 @@ li {
 }
 /* banner css end*/
 
-/* blog section start */
+/* blog css start */
 #blog {
   margin-top: 130px;
 }
@@ -199,9 +199,9 @@ li {
   border-radius: 5px;
   display: inline-block;
 }
-/* blog section end */
+/* blog css end */
 
-/* footer section start */
+/* footer css start */
 footer {
   margin-top: 130px;
   background-color: var(--primary);
@@ -244,7 +244,7 @@ footer h3 {
 .social-icon i:hover {
   color: #dd0000;
 }
-/* footer section end */
+/* footer css end */
 
 /* upcoming-match css start */
 .match-img {
@@ -401,7 +401,8 @@ footer h3 {
 }
 /* responsive for mobile */
 
-/* responsive for tablets*/
+/* responsive for tablet*/
+
 @media (min-width: 689px) and (max-width: 991px) {
   .container {
     margin: 0 20px;
