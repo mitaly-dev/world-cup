@@ -51,7 +51,7 @@ li {
   font-size: 60px;
   font-weight: 700;
   line-height: 70px;
-  animation: design 12s ease-out infinite;
+  animation: design 10s ease-out infinite;
   animation-play-state: running;
 }
 @keyframes design {
@@ -60,23 +60,13 @@ li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  25% {
-    background: linear-gradient(#ff9f4a, #ff3c83);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
   50% {
-    background: linear-gradient(#eff54d, #00ac61);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  75% {
-    background: linear-gradient(#f1c064, #fff23c);
+    background: linear-gradient(#ff9f4a, #ff3c83);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   100% {
-    background: linear-gradient(#ff9f4a, #ff3c83);
+    background: linear-gradient(#eff54d, #00ac61);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
